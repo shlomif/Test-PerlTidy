@@ -17,6 +17,8 @@ my @wanted_files = qw(
   t/is_file_tidy.t
   t/list_files.t
   t/perltidy.t
+  t/test_files/cpanfile
+  t/test_files/test_app.psgi
 );
 
 @wanted_files = map { my $ret = $_; $ret =~ s/\//\\/g; $ret } @wanted_files
